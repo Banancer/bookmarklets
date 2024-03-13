@@ -1,0 +1,5 @@
+let classname = prompt("what is the class name");
+let replacer = promt("what to replace with");
+for (let index = 0; index < document.getElementsByClassName(classname).length ; index++) {
+    document.getElementsByClassName(classname)[index].innerHTML = replacer
+}
